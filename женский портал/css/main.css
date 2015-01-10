@@ -34,17 +34,23 @@
 #menu_container {
 	border: 1px solid #adadad;
 	background: #db456b;
-	border-radius: 30px;
+	border-radius: 20px;
+	line-height: 25px;
+	padding: 9px 17px;
 }
 
 #menu_container span {
 	color: #f35f7f;
 	font-size: 11px;
+	padding-top: 20px;
+	position: relative;
+	top: 2px;
+	font-family: Helvetica;
 }
 
 #menu_container span:before {
 	content: "|";
-	margin: 0px 5px;
+	margin: 0px 8px;
 }
 
 #menu_container span:first-child:before {
@@ -59,11 +65,23 @@
 }
 
 #search {
-	display: inline-block;
+	display: block;
+	float: right;
 	width: 200px;
 	height: 25px;
-	border-radius: 30px;
-	border: 1px solid #f0b4c3;
+	line-height: 25px;
+	border-radius: 25px;
 	background: white;
-	padding: 5px 15px 5px 15px;
+	border: 1px solid #f0b4c3;
+}
+
+#search_text_input {
+	width: 155px;
+	margin-left: 16px;
+	border: none;
+}
+
+#magnifier {
+	position: relative;
+	top: 2px;
 }

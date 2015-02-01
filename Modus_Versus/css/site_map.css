@@ -1,0 +1,23 @@
+#site_map_background {
+	background: #ececec;
+}
+
+#site_map_container {
+	height: 80px;
+	line-height: 80px;
+	color: #7f8c8c;
+	background: blue;
+}
+
+#site_map_tail {
+	background: url("../img/site_map_tail.png") no-repeat;
+	height: 24px;
+}
+
+#current_page1 {
+	vertical-align: middle;
+}
+
+#current_page2 {
+	vertical-align: text-bottom;
+}

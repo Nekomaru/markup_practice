@@ -1,0 +1,20 @@
+.divider-container {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.divider {
+	display: inline-block;
+	width: 60px;
+	height: 5px;
+	font-size: 0pt;
+	margin-left: 5px;
+}
+
+.red_divider {
+	background: #e2534b;
+}
+
+.gray_divider {
+	background: #b0b8b9;
+}

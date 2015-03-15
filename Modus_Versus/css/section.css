@@ -1,0 +1,28 @@
+#section-intro-wrapper {
+	background: #ececec;
+	border-radius: 5px;
+	padding: 30px;
+}
+
+#section-intro {
+	color: #7f8c8c;
+	width: 100%;
+}
+
+#section-intro-title {
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+#section-intro-description {
+	font-size: 12pt;
+}
+
+#button-column {
+	width: 200px;
+}
+
+.view-more-button {
+	height: 50px;
+	line-height: 50px;
+}

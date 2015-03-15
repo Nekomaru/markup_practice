@@ -1,28 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="stylesheet" type="text/css" href="css/main_menu.css">
-		<link rel="stylesheet" type="text/css" href="css/site_map.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
+		<link rel="stylesheet" type="text/css" href="css/divider.css">
+		<link rel="stylesheet" type="text/css" href="css/section.css">
+		<link rel="stylesheet" type="text/css" href="css/services.css">
+		<link rel="stylesheet" type="text/css" href="css/about.css">
+		<link rel="stylesheet" type="text/css" href="css/additional-about.css">
 	</head>
 	<body>
 		<div id="main_menu_background">
-			<div id="main_menu_wrapper" class="wrapper">
-				<a class="vertical_middle_aligned" href="#" id="logo"></a>
-				<a class="vertical_middle_aligned main_menu_item main_menu_first_item" href="#">HOME</a>
-				<a class="vertical_middle_aligned main_menu_item" href="#">ABOUT</a>
-				<a class="vertical_middle_aligned main_menu_item" href="#">SEVICES</a>
-				<a class="vertical_middle_aligned main_menu_item" href="#">PORTFOLIO</a>
-				<a class="vertical_middle_aligned main_menu_item" href="#">BLOG</a>
-				<a class="vertical_middle_aligned main_menu_item" href="#">FEATURES</a>
-				<a class="vertical_middle_aligned main_menu_item" href="#">CONTACT</a>
-				<a id="search_icon" class="vertical_middle_aligned main_menu_item" href="#"></a>
+			<a class="vertical_middle_aligned" id="logo" href="#">&nbsp;</a>
+			<a class="vertical_middle_aligned main_menu_item main_menu_first_item" href="#">HOME</a>
+			<a class="vertical_middle_aligned main_menu_item" href="#">ABOUT</a>
+			<a class="vertical_middle_aligned main_menu_item" href="#">SEVICES</a>
+			<a class="vertical_middle_aligned main_menu_item" href="#">PORTFOLIO</a>
+			<a class="vertical_middle_aligned main_menu_item" href="#">BLOG</a>
+			<a class="vertical_middle_aligned main_menu_item" href="#">FEATURES</a>
+			<a class="vertical_middle_aligned main_menu_item" href="#">CONTACT</a>
+			<a href="#" id="search_icon" class="vertical_middle_aligned main_menu_item"></a>
+		</div>
+		<table id="slider" border="0" cellpadding="0" cellspacing="0">
+			<tr>
+				<td valign="middle" class="selector-arrow-cell">
+					<a href="#" class="selector-arrow" id="selector-arrow-left"></a>
+				</td>
+				<td valign="middle" id="slider-content-container">
+					<span id="selector-title">VESTIBULUM</span><br />
+					<span id="selector-text">Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et ultrices posuere cubilia Curae</span>
+				</td>
+				<td valign="middle" class="selector-arrow-cell">
+					<a href="#" class="selector-arrow" id="selector-arrow-right"></a>
+				</td>
+			</tr>
+		</table>
+		<div class="divider-container">
+			<span class="divider gray_divider"></span><span class="divider red_divider"></span><span class="divider gray_divider"></span>
+		</div>
+		<div class="wrapper">
+			<div id="section-intro-wrapper">
+				<table id="section-intro" border="0" cellpadding="0" cellspacing="0">
+					<tr>
+						<td valign="middle">
+							<span id="section-intro-title">Some of our top services</span><br />
+							<span id="section-intro-description">
+								Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et
+							</span>
+						</td>
+						<td id="button-column">
+							<a href="#" class="button view-more-button">VIEW MORE</a>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div id="services">
+				<div class="first-service">
+					<a href="#" class="button service-button">read more</a><br />
+					<img src="img/thumb-up.png"/><br />
+					<span class="service-title">SUSPENDISSE</span><br />
+					<span class="service-description">Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et</span>
+				</div>
+				<div class="service">
+					<a href="#" class="button service-button">read more</a><br />
+					<img src="img/key.png"/><br />
+					<span class="service-title">SUSPENDISSE</span><br />
+					<span class="service-description">Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et</span>
+				</div>
+				<div class="service">
+					<a href="#" class="button service-button">read more</a><br />
+					<img src="img/flag.png"/><br />
+					<span class="service-title">SUSPENDISSE</span><br />
+					<span class="service-description">Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et</span>
+				</div>
+				<div class="service">
+					<a href="#" class="button service-button">read more</a><br />
+					<img src="img/bulb.png"/><br />
+					<span class="service-title">SUSPENDISSE</span>
+					<span class="service-description">Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et. Aenean hendrerit augue eget</span>
+				</div>
 			</div>
 		</div>
-		<div id="site_map_background">
-			<div id="site_map_container" class="wrapper">
-				<a id="current_page1">ABasaOUT</a>
-				<a id="current_page2">ABasaOUT</a>
+		<div id="browsers">
+			<p id="why-modus-versus">WHY MODUS VERSUS?</p>
+			<p id="why-modus-versus-description">Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies.</p>
+			<img id="side-browser" class="browser" src="img/browsers.png"/>
+			<div id="browsers-background"></div>
+		</div>
+		<div class="wrapper">
+			<div id="additional-about-wrapper">
+				<div id="left" class="column">
+					<p id="why-choose-us-title">Why Choose Us ?</p>
+					<ul id="why-choose-us-reasons">
+						<li>Aenean hendrerit augue</li>
+						<li>elit vehicula ac</li>
+						<li>Aenean hendrerit augue</li>
+						<li>elit vehicula ac</li>
+						<li>Aenean hendrerit augue</li>
+						<li>elit vehicula ac</li>
+					</ul>
+				</div>
+				<div id="middle" class="column">
+					Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et. Aenean hendrerit augue eget
+					<div id="skills">
+						<div class="skill first-skill">
+							<img src="img/50.png" />
+							<p class="skill-name">SUSPENDISSE</p>
+						</div>
+						<div class="skill">
+							<img src="img/70.png" />
+							<p class="skill-name">MAECENAS</p>
+						</div>
+						<div class="skill">
+							<img src="img/80.png" />
+							<p class="skill-name">ALIQUAM</p>
+						</div>
+						<div class="skill">
+							<img src="img/100.png" />
+							<p class="skill-name">HABITASSE</p>
+						</div>
+					</div>
+				</div>
+				<div id="right" class="column">
+					<p class="comment-title">What Client's Say ?</p>
+					<p class="comment">Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et. Aenean hendrerit augue eget Aenean hendrerit augue eget elit vehicula ac ultrices eros ultricies. Donec elit nisi, facilisis ... luctus et. Aenean hendrerit augue eget</p>
+					<img class="comment-tail" src="img/comment-tail.png"/>
+					<span class="comment-author">John Doe</span>
+				</div>
+			</div>
+
+			<div id="clients">
+				<span id=""></span>
 			</div>
 		</div>
 	</body>

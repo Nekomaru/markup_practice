@@ -1,0 +1,45 @@
+#browsers {
+	text-align: center;
+	margin-top: 50px;
+	position: relative;
+}
+
+#middle-browser {
+	
+}
+
+.browser {
+	display: inline-block;
+	vertical-align: middle
+}
+
+#browsers-background {
+	background: #ececec url("../img/ruler-light.png") repeat-x top;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	bottom: 180px;
+	z-index: -1;
+}
+
+#why-modus-versus, #why-modus-versus-description {
+	text-align: center;
+}
+
+#why-modus-versus {
+	padding-top: 75px;
+	font-size: 20pt;
+	font-weight: bold;
+	color: #e1524b;
+}
+
+#why-modus-versus-description {
+	margin-top: 15px;
+	margin-bottom: 70px;
+	color: #777777;
+}
+
+#browsers-wrapper {
+	height: 360px;
+	line-height: 360px;
+}

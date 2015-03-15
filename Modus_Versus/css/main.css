@@ -1,4 +1,33 @@
+body {
+	text-align: center;
+	background: #f3f3f3;
+}
+
+body * {
+	text-align: left;
+}
+
 .wrapper {
+	display: inline-block;
 	width: 1170px;
-	margin: 0px auto;
+}
+
+.button:hover {
+	border-bottom: 5px solid #e2534b;
+	background: #e75e55;
+}
+
+.button {
+	background: #6ec3bb;
+	border-bottom: 5px solid #62b9b0;
+	display: block;
+	border-radius: 5px;
+	text-decoration: none;
+	color: white;
+	font-size: 15pt;
+	text-align: center;
+}
+
+.button * {
+	vertical-align: middle;
 }

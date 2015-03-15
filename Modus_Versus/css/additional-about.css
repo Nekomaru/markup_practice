@@ -1,0 +1,95 @@
+.column {
+	display: inline-block;
+	font-size: 12pt;
+	vertical-align: top;
+}
+
+#left, #right{
+	width: 270px;
+}
+
+#right {
+	position: relative;
+}
+
+#middle {
+	width: 570px;
+	margin: 0px 30px;
+}
+
+#additional-about-wrapper {
+	font-size: 0px;
+	margin-top: 60px;
+	color: #777777;
+}
+
+#why-choose-us-title {
+	font-weight: bold;
+	font-size: 16pt;
+	margin-bottom: 40px;
+}
+
+#why-choose-us-reasons {
+	list-style-type: none;
+}
+
+#why-choose-us-reasons li {
+	background: url("../img/arrow.png") no-repeat left center;
+	vertical-align: middle;
+	padding-left: 15px;
+}
+
+
+#skills {
+	margin-top: 60px;
+}
+
+.skill, .first-skill{
+	margin-left: 23px;
+	width: 121px;
+	display: inline-block;
+}
+
+.first-skill {
+	margin-left: 0px;
+}
+
+.skill-name {
+	margin-top: 25px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.comment-title {
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.comment-tail {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.comment {
+	padding: 20px;
+	background: #f8f8f8;
+	border-radius: 5px;
+}
+
+.comment-author {
+	display: inline-block;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

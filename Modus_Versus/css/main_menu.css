@@ -5,19 +5,18 @@
 
 #main_menu_background {
 	background: #76c7c0 url("../img/ruler.png") bottom repeat-x;
-}
-
-#main_menu_wrapper {
 	height: 80px;
 	line-height: 80px;
+	text-align: center;
 }
 
 #logo {
-	background: url("../img/logo.png");
+	background: url("../img/logo.png") no-repeat center;
 	width: 192px;
 	height: 21px;
-	display: inline-block;
 	margin-right: 240px;
+	text-decoration: none;
+	display: inline-block;
 }
 
 .vertical_middle_aligned {

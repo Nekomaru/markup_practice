@@ -1,0 +1,59 @@
+#clients {
+	margin-top: 55px;
+	line-height: 40px;
+	overflow: hidden;
+}
+
+#clients * {
+	vertical-align: middle;
+}
+
+#clients-title {
+	float: left;
+	font-weight: bold;
+	color: #777777;
+	margin-right: 20px;
+}
+
+#clients-control-buttons {
+	float: right;
+	display: inline-block;
+	margin-left: 20px;
+}
+
+#clients-slider {
+	overflow: hidden;
+	height: 40px;
+}
+
+#slider-line {
+	height: 1px;
+	background: #e1e2e2;
+	position: relative;
+	top: 20px;
+}
+
+#slider-point {
+	position: relative;
+	top: 16px;
+	display: block;
+}
+
+#clients-left-button, #clients-right-button {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+}
+
+#clients-left-button {
+	background-image: url(../img/left-arrow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+
+}
+
+#clients-right-button {
+	background-image: url(../img/right-arrow.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
